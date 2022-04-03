@@ -1,15 +1,9 @@
 const projectsData = [
   {
-    title: 'A Google Mock',
-    description: `Basically, it' s a clone of google.com built with Next.js and TailwindCSS. `,
-    imgSrc: '/static/images/google.png',
-    href: 'https://google.ghali.dev',
-  },
-  {
-    title: 'A Google Mock',
-    description: `Basically, it' s a clone of google.com built with Next.js and TailwindCSS. `,
-    imgSrc: '/static/images/google.png',
-    href: 'https://google.ghali.dev',
+    title: 'Chameleon',
+    description: ` My first programming project, made in Java and Swing.`,
+    imgSrc: '/static/images/cameleon.png',
+    href: 'https://github.com/datscyril/cameleon',
   },
 ]
 

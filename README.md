@@ -1,3 +1,5 @@
+# This is my personal website.
+
 ## Quick Start Guide
 
 1.JS (official support)
@@ -5,6 +7,7 @@
 ```bash
 npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
 ```
+
 2. Personalize `siteMetadata.js` (site related information)
 3. Modify the content security policy in `next.config.js` if you want to use
    any analytics provider or a commenting solution other than giscus.
@@ -50,7 +53,6 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 
 **Vercel**  
 The easiest way to deploy the template is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js. Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
 
 ## Credits
 
