@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: "Cyril's Blog",
   author: 'Cyril Ghali',
-  headerTitle: '@datscyril',
+  headerTitle: '',
   description: 'My garden',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -29,7 +29,7 @@ const siteMetadata = {
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the

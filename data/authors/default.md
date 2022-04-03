@@ -1,12 +1,12 @@
 ---
-name: Tails Azimuth
+name: Cyril GHALI
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Student in CS, 4th year
+company: EPITA
+email: cyril.ghali@epita.fr
+twitter: https://twitter.com/datscyril
+linkedin: https://www.linkedin.com/in/cyrilghali
+github: https://github.com/datscyril
 ---
 
 Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
