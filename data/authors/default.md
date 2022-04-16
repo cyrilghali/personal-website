@@ -9,8 +9,16 @@ linkedin: https://www.linkedin.com/in/cyrilghali
 github: https://github.com/datscyril
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+# Me in 10 seconds
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+I am a software engineer, freelance, and entrepreneur.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I have experience across the full stack and entire software development lifecycle.
+
+I'm an [ESFP](https://www.16personalities.com/esfp-personality)
+
+I live in Paris.
+
+# What I’m doing now
+
+See my [now](/now) page
