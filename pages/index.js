@@ -1,11 +1,10 @@
 import Link from '@/components/Link'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
+import { BlogNewsletterForm } from '@/components/NewsletterForm'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import { RoughNotation } from 'react-rough-notation'
-import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 5
 
@@ -20,28 +19,28 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div>
-        <h1 className="mb-2 text-2xl font-extrabold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          About me
-        </h1>
-        <p className=" py-5 text-lg leading-7 text-slate-600 dark:text-slate-300">
-          I’m a student, software engineer and entrepreneur.
-          <br />
-          <br />
-          I'm from Paris, France
-          <br />
-          <br />
-          I want to launch a SaaS this year, so this will be the place where I will build this in
-          public.
-          <br />
-          <br />I will also share some book summaries here so stay tuned.
-        </p>
-      </div>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            {siteMetadata.description}
-          </p>
+        <div className="my-6 flex flex-col items-center gap-x-12 xl:mb-12 xl:flex-row">
+          <div className="pt-6">
+            <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Hi, I’m Cyril GHALI
+            </h1>
+            <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
+              {`Welcome to my blog - ${siteMetadata.description}. I am a software engineer student in Paris. I do freelance,
+               In my free time, I like developing `}
+              <Link href="/projects">side projects</Link>
+              {' and '}
+              <Link href="/blog">blogging</Link>
+              {' about them. Have a good read!'}
+            </h2>
+          </div>
+          <div className="mx-2 my-12 flex w-96 items-center justify-center">
+            <BlogNewsletterForm title="Stay updated, receive the latest post straight to your mailbox" />
+          </div>
         </div>
+        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
+          Latest
+        </h2>
+        <hr className="border-gray-200 dark:border-gray-700" />
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
@@ -94,7 +93,6 @@ export default function Home({ posts }) {
           })}
         </ul>
       </div>
-
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
@@ -104,11 +102,6 @@ export default function Home({ posts }) {
           >
             All Posts &rarr;
           </Link>
-        </div>
-      )}
-      {siteMetadata.newsletter.provider !== '' && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
         </div>
       )}
     </>
