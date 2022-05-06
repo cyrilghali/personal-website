@@ -9,7 +9,7 @@ const projectsData = [
     title: 'TDEE Calculator',
     description: `A basic TDEE calculator for the fitness industry.`,
     imgSrc: '/static/images/calories.avif',
-    href: 'https://github.com/datscyril/tdee',
+    href: 'https://tdee.ghali.dev',
   },
   {
     title: 'Chameleon',
