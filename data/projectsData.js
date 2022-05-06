@@ -6,6 +6,12 @@ const projectsData = [
     href: 'https://catenabible.com',
   },
   {
+    title: 'TDEE Calculator',
+    description: `A basic TDEE calculator for the fitness industry.`,
+    imgSrc: '/static/images/calories.avif',
+    href: 'https://github.com/datscyril/tdee',
+  },
+  {
     title: 'Chameleon',
     description: `My first lines of code. A game made in Java 14 and Java Swing.`,
     imgSrc: '/static/images/cameleon.png',
