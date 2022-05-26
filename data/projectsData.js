@@ -8,7 +8,7 @@ const projectsData = [
   {
     title: 'CWS',
     description: `CWS is a custom web server made in C++`,
-    imgSrc: '/static/images/cws.avif',
+    imgSrc: '/static/images/spider.png',
     href: 'https://github.com/datscyril/cws',
   },
   {
