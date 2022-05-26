@@ -17,6 +17,8 @@ I have experience across the full stack and entire software development lifecycl
 
 I'm an [ESFP](https://www.16personalities.com/esfp-personality)
 
+I'm Coptic.
+
 I live in Paris.
 
 # What I’m doing now

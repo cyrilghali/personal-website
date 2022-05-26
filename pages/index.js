@@ -25,12 +25,7 @@ export default function Home({ posts }) {
               Hi, I’m Cyril GHALI
             </h1>
             <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
-              {`Welcome to my blog - ${siteMetadata.description}. I am a software engineer student in Paris. I do freelance,
-               In my free time, I like developing `}
-              <Link href="/projects">side projects</Link>
-              {' and '}
-              <Link href="/blog">blogging</Link>
-              {' about them. Have a good read!'}
+              {`I am a software engineer, from Paris. This is my digital garden, where I write about the things I'm working on and share what I've learned.`}
             </h2>
           </div>
           <div className="mx-2 my-12 flex w-96 items-center justify-center">

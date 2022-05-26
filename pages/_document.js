@@ -23,6 +23,16 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#121212" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </Head>
+        <script
+          async
+          id="chiffre:analytics"
+          src="https://chiffre.io/analytics.js"
+          data-chiffre-project-id={`${process.env.data_chiffre_project_id}`}
+          data-chiffre-public-key={`${process.env.data_chiffre_public_key}`}
+          referrerpolicy="origin"
+          crossOrigin="anonymous"
+        />
+
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />

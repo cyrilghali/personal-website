@@ -15,8 +15,14 @@ github: https://github.com/datscyril
 
 # Learning
 
-Growth Hacking, Project Management and Backend Development
+Growth Hacking, Product Management and Backend Development
 
 # Location
 
 Paris, France
+
+# Goals
+
+- Launch an app to learn Coptic. Currently studying what's the best way to learn a new language.
+- Losing weight. I have lost 20lbs. 60 lefts.
+- Find an internship in the United Stated or Switzerland for Feb 2023.
