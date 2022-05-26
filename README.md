@@ -2,20 +2,15 @@
 
 ## Quick Start Guide
 
-1.JS (official support)
 
-```bash
-npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
-```
-
-2. Personalize `siteMetadata.js` (site related information)
-3. Modify the content security policy in `next.config.js` if you want to use
+1. Personalize `siteMetadata.js` (site related information)
+2. Modify the content security policy in `next.config.js` if you want to use
    any analytics provider or a commenting solution other than giscus.
-4. Personalize `authors/default.md` (main author)
-5. Modify `projectsData.js`
-6. Modify `headerNavLinks.js` to customize navigation links
-7. Add blog posts
-8. Deploy on Vercel
+3. Personalize `authors/default.md` (main author)
+4. Modify `projectsData.js`
+5. Modify `headerNavLinks.js` to customize navigation links
+6. Add blog posts
+7. Deploy on Vercel
 
 ## Installation
 
