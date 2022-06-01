@@ -23,12 +23,6 @@ const projectsData = [
     imgSrc: '/static/images/calories.avif',
     href: 'https://tdee.ghali.dev',
   },
-  {
-    title: 'Google Mockup',
-    description: `A Google mockup made in Next.js and Tailwind CSS.`,
-    imgSrc: '/static/images/google-mockup.webp',
-    href: 'https://github.com/datscyril/chameleon',
-  },
 ]
 
 export default projectsData
