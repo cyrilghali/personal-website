@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'cyril.ghali@epita.fr',
   github: 'https://github.com/datscyril',
-  twitter: 'https://twitter.com/datscyril',
+  // twitter: 'https://twitter.com/datscyril',
   // facebook: 'https://facebook.com',
   // youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/cyrilghali',
