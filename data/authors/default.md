@@ -35,3 +35,5 @@ email: cyril.ghali@epita.fr
 **Deployement**: Docker, Git, Ansible, Bash, Linux, AWS
 
 **Management**: Kanban, Scrum, Lean Management
+
+**Spoken Languages**: English, French, Egyptian, Spanish
