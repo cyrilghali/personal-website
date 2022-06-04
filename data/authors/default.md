@@ -20,7 +20,7 @@ email: cyril.ghali@epita.fr
 
 - **I love listening to other people's experiences** and sharing my own! That's why I love reading books, articles and listening to podcasts.
 
-- **I'm ambioustly focusing on learning**: I have uninstalled as much apps as I can on my phone. I have stopped video games, tv showsm and social media. There is so much things that I want to learn, so I hate losing time.
+- **I'm ambioustly focusing on learning**: I have uninstalled as much apps as I can on my phone. I have stopped video games, tv shows and social media. There is so much things that I want to learn, so I hate losing time.
 
 - **I enjoy discovering**. I love playing with new technologies. I recently built my own nas/cloud solution and learned more about networking, deployment automation and scripting tools. I appreciate developping non technical skills. It can be anything: speak a new language, learn negociation, be a good mentor, get better at UX/UI design... I also like to meet new people! I can easily talk and exchange with anyone.
 
