@@ -3,7 +3,7 @@ title: Enable Wake On Lan (WOL)
 date: '2022-06-12'
 tags: ['wol', 'wake on lan', '']
 draft: false
-summary: My little snippet code to enable wake on lan on a debian machine
+summary: My little snippet to enable WOL on a Debian machine
 images: []
 layout: PostSimple
 canonicalUrl:
@@ -37,7 +37,9 @@ If it contains a `g` it supports WOL.
 
 # enable wol on the device
 
+```
 sudo ethtool -s eno1 wol g
+```
 
 # edit the network interfaces configuration
 
