@@ -18,9 +18,11 @@ email: cyril.ghali@epita.fr
 
 ## Interests
 
-- **I love listening to other people's experiences** and sharing my own! That's why I love reading books, articles and listening to podcasts.
+- **I love homelabbing**. This is real. The possibility to be the software engineer, sysadmin and sre of my own lab is just crazy. I can break things without worrying about it.
 
-- **I'm ambioustly focusing on learning**: I have uninstalled as much apps as I can on my phone. I have stopped video games, tv showsm and social media. There is so much things that I want to learn, so I hate losing time.
+- **I like listening to other people's experiences** and sharing my own! That's why I read books, articles and listen to podcasts.
+
+- **I'm ambioustly focusing on learning**: I have uninstalled as much apps as I can on my phone. I have stopped video games, tv shows and social media. There is so much things that I want to learn, so I hate losing time.
 
 - **I enjoy discovering**. I love playing with new technologies. I recently built my own nas/cloud solution and learned more about networking, deployment automation and scripting tools. I appreciate developping non technical skills. It can be anything: speak a new language, learn negociation, be a good mentor, get better at UX/UI design... I also like to meet new people! I can easily talk and exchange with anyone.
 
@@ -28,12 +30,8 @@ email: cyril.ghali@epita.fr
 
 ## Skills
 
-**Backend** : `Java`,`C++`, `Python`, `Node.j`, `SQL`, `PostgreSQL`, `MongoDB`
+**Deployement**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
 
-**Frontend** : `React.js`, `Next.js`, `HTML`, `CSS`
+**Backend** : `Java`,`C++`, `Python`, `SQL`,
 
-**Deployement**: `Docker`, `Git`, `Ansible`, `Bash`, `Linux`, `AWS`
-
-**Management**: `Kanban`, `Scrum`,`Lean Management`
-
-**Spoken Languages**: `English`, `French`, `Egyptian`, `Spanish`
+**Spoken Languages**: `English`, `French`, `Egyptian`,
