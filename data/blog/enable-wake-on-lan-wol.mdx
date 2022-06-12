@@ -12,13 +12,13 @@ canonicalUrl:
 Wake on LAN is very useful functionality if your hardware supports it.
 Make sur it's enable on your BIOS.
 
-# install ethtool
+### install ethtool
 
 ```
 sudo apt install ethtool
 ```
 
-# list network devices
+### list network devices
 
 ```
 ip addr
@@ -26,7 +26,7 @@ ip addr
 
 Look for the device that has your local IP address (192.168 or 10.10). Take the mac address.
 
-# replace eno1 with the device name to test
+### replace eno1 with your iface
 
 ```
 sudo ethtool eno1
@@ -35,13 +35,13 @@ sudo ethtool eno1
 Find `Supports Wake-on line`
 If it contains a `g` it supports WOL.
 
-# enable wol on the device
+### enable wol on the device
 
 ```
 sudo ethtool -s eno1 wol g
 ```
 
-# edit the network interfaces configuration
+### edit the network interfaces configuration
 
 ```
 sudo vim /etc/network/interfaces
