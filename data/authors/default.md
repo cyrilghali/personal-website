@@ -41,7 +41,7 @@ Relevant Coursework : Software, Product Management, Entrepreneurship
 
 ## Skills
 
-**Deployement**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
+**Deployment**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
 
 **Backend** : `Java`,`C++`, `Python`, `SQL`,
 
