@@ -1,0 +1,119 @@
+---
+title: Remote Gaming - GPU Passtrough guide with Proxmox
+date: '2022-06-12'
+tags: ['#proxmox', '#gpu', '#passtrough']
+draft: false
+summary: I explain how I have passtrough my GPU to a Windows 11 VM.
+images: []
+layout: PostSimple
+canonicalUrl:
+---
+
+# Remote Gaming and Video Encoding on Proxmox
+
+If you need a Windows 11 VM. [Check this guide](https://docs.technotim.live/posts/windows-11-proxmox/).
+
+Ensure that you have RDP or any other remote control software installed, because you won't be able to use VNC after using your GPU as your primary card.
+
+This tutorial is working for my config: a Nvidia 3060ti, an AMD 5600x, proxmox 7 and kernel 5.13.
+
+Check your kernel version because most of the guides are deprecated by now.
+
+## Steps
+
+Edit `/etc/default/grub`. Change this line:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on video=vesafb:off video=efifb:off"
+```
+
+Run `update-grub`:
+
+```
+update-grub
+```
+
+Run `reboot`:
+
+```
+reboot
+```
+
+Edit `/etc/modules/`:
+
+```
+vfio
+vfio_iommu_type1
+vfio_pci
+vfio_virqf
+```
+
+Run `reboot`:
+
+```
+reboot
+```
+
+In `/etc/pve/qemu-server/XXX.conf` (The VM id of your machine)
+
+Replace the CPU line by this one:
+
+```
+cpu: host,hidden=1,flags=+pci
+```
+
+Here is my config if you want to have a look:
+
+```
+agent: 1
+bios: ovmf
+boot: order=virtio0;net0;ide2;ide0
+cores: 8
+cpu: host,hidden=1,flags=+pcid
+efidisk0: ssd:vm-100-disk-0,efitype=4m,pre-enrolled-keys=1,size=4M
+hostpci0: 0000:2d:00,pcie=1,x-vga=1
+ide0: local:iso/virtio-win.iso,media=cdrom,size=519172K
+ide2: local:iso/Win11_English_x64v1.iso,media=cdrom,size=5434622K
+machine: pc-q35-6.1
+memory: 16384
+meta: creation-qemu=6.1.0,ctime=1654853116
+name: backupw11
+net0: virtio=16:DB:69:5D:5F:99,bridge=vmbr0,firewall=1
+numa: 0
+ostype: win11
+scsihw: virtio-scsi-pci
+smbios1: uuid=8e0ad09d-2a10-4368-9d2c-a599397f2083
+sockets: 1
+tpmstate0: ssd:vm-100-disk-1,size=4M,version=v2.0
+virtio0: ssd:vm-100-disk-2,size=128G
+vmgenid: 03172900-0ee8-4f6d-acef-846cf7bf9810
+```
+
+blacklists the drivers:
+
+```
+echo "blacklist radeon" >> /etc/modprobe.d/blacklist.conf
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
+echo "blacklist nvidia" >> /etc/modprobe.d/blacklist.conf
+```
+
+Create this file
+
+```
+echo "options vfio-pci ids=10de:1381,10de:0fbc" > /etc/modprobe.d/vfio.conf
+```
+
+where XXXX:XXXX is the device and vendor id of your gpu. Find them with `lspci-nn`.
+
+This will output something like:
+
+```
+01:00.0 0300: 10de:1381 (rev a2)
+01:00.1 0403: 10de:0fbc (rev a1)
+```
+
+Add you GPU card in proxmox to the vm by adding a pci device. Check everything (Primary GPU, All functions, Rom-bar, Pci express)
+
+You can start your vm, connect it with the remote software that you have chosen, and install the nvidia drivers.
+
+To make sure that your NVIDIA card is working, you can open Nvidia Control Panel, go to 'adjust image settings with preview' and check if the 3D rendering is working.
