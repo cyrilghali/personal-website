@@ -29,7 +29,7 @@ export default function Home({ posts }) {
             </h2>
             <Link
               href="/about"
-              className="focus:shadow-outline mt-6 inline-flex items-center rounded-sm bg-primary-400 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-primary-700 hover:text-indigo-100 focus:outline-none focus:ring-2  focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black dark:hover:bg-primary-400"
+              className="focus:shadow-outline mt-6 inline-flex items-center rounded-sm bg-primary-600 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-primary-700 hover:text-indigo-100 focus:outline-none focus:ring-2  focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black dark:hover:bg-primary-400"
               // className={`bg-primary-500 py-2 px-4 font-medium text-white ${'hover:bg-primary-700 dark:hover:bg-primary-400'} focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
             >
               Learn more
