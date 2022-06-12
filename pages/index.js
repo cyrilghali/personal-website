@@ -5,7 +5,7 @@ import { BlogNewsletterForm } from '@/components/NewsletterForm'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
+import Image from '@/components/Image'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -27,9 +27,22 @@ export default function Home({ posts }) {
             <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
               {`I am a software engineer, from Paris. This is my digital garden, where I write about the things I'm working on and share what I've learned.`}
             </h2>
+            <Link
+              href="/about"
+              className="focus:shadow-outline mt-6 inline-flex items-center rounded-sm bg-primary-400 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-primary-700 hover:text-indigo-100 focus:outline-none focus:ring-2  focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black dark:hover:bg-primary-400"
+              // className={`bg-primary-500 py-2 px-4 font-medium text-white ${'hover:bg-primary-700 dark:hover:bg-primary-400'} focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
+            >
+              Learn more
+            </Link>
           </div>
           <div className="mx-2 my-12 flex w-96 items-center justify-center">
-            <BlogNewsletterForm title="Stay updated, receive the latest post straight to your mailbox" />
+            <Image
+              src="/static/images/avatar.png"
+              width="200px"
+              height="200px"
+              alt="avatar"
+              className="h-10 w-10 rounded-lg"
+            />
           </div>
         </div>
         <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
