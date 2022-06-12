@@ -16,14 +16,6 @@ email: cyril.ghali@epita.fr
 
 - **I'm now looking for an internship** as a software engineer or a site reliability engineer for February 2023.
 
-## Skills
-
-**Deployement**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
-
-**Backend** : `Java`,`C++`, `Python`, `SQL`,
-
-**Spoken Languages**: `English`, `French`, `Egyptian`,
-
 ## Interests
 
 - **I love homelabbing**. This is real. The possibility to be the software engineer, sysadmin and sre of my own lab is just crazy. I can break things without worrying about it.
@@ -46,3 +38,11 @@ _2018-2023_
 
 Relevant Coursework : Software, Product Management, Entrepreneurship
 & Bachelor of Science : Mathematics, Mechanics, Chemistry
+
+## Skills
+
+**Deployement**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
+
+**Backend** : `Java`,`C++`, `Python`, `SQL`,
+
+**Spoken Languages**: `English`, `French`, `Egyptian`,

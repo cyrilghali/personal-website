@@ -25,14 +25,16 @@ export default function Home({ posts }) {
               Hi, I’m Cyril GHALI
             </h1>
             <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
-              {`I am a software engineer, from Paris. This is my digital garden, where I write about the things I'm working on and share what I've learned.`}
+              {`I'm a software engineer from Paris. 
+              I have six months of experience in software development.
+              In my free time, I love home labbing and blogging ! This is my digital garden, where I write about the things I'm working on and share what I've learned. Let's have a chat :)`}
             </h2>
             <Link
               href="/about"
               className="focus:shadow-outline mt-6 inline-flex items-center rounded-sm bg-primary-600 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-primary-700 hover:text-indigo-100 focus:outline-none focus:ring-2  focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black dark:hover:bg-primary-400"
               // className={`bg-primary-500 py-2 px-4 font-medium text-white ${'hover:bg-primary-700 dark:hover:bg-primary-400'} focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
             >
-              Learn more
+              Read more about me
             </Link>
           </div>
           <div className="mx-2 my-12 flex w-96 items-center justify-center">
