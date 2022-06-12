@@ -1,0 +1,51 @@
+---
+title: Enable Wake On Lan (WOL)
+date: '2022-06-12'
+tags: ['wol', 'wake on lan', '']
+draft: false
+summary: My little snippet code to enable wake on lan on a debian machine
+images: []
+layout: PostSimple
+canonicalUrl:
+---
+
+Wake on LAN is very useful functionality if your hardware supports it.
+Make sur it's enable on your BIOS.
+
+# install ethtool
+
+```
+sudo apt install ethtool
+```
+
+# list network devices
+
+```
+ip addr
+```
+
+Look for the device that has your local IP address (192.168 or 10.10). Take the mac address.
+
+# replace eno1 with the device name to test
+
+```
+sudo ethtool eno1
+```
+
+Find `Supports Wake-on line`
+If it contains a `g` it supports WOL.
+
+# enable wol on the device
+
+sudo ethtool -s eno1 wol g
+
+# edit the network interfaces configuration
+
+```
+sudo vim /etc/network/interfaces
+```
+
+Paste the following below the iface of your ip address
+`ethernet-wol g`
+
+Shutdown the device and test it. Congrats 🎉
