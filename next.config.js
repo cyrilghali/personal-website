@@ -58,6 +58,15 @@ module.exports = withBundleAnalyzer({
   eslint: {
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/resume',
+        destination: '/static/files/Cyril Ghali Resume.pdf',
+        permanent: true,
+      },
+    ]
+  },
   async headers() {
     return [
       {
