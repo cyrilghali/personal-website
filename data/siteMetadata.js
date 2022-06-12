@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: "Cyril's Blog",
+  title: 'Cyril Ghali',
   author: 'Cyril Ghali',
-  headerTitle: '',
-  description: '',
+  description:
+    "I'm a software engineer from Paris. I have six months of experience in software development. In my free time, I love home labbing and blogging ! This is my digital garden, where I write about the things I'm working on and share what I've learned. Let's have a chat :)",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://ghali.dev',
@@ -12,8 +12,8 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'cyril.ghali@epita.fr',
   github: 'https://github.com/datscyril',
-  // twitter: 'https://twitter.com/datscyril',
-  // facebook: 'https://facebook.com',
+  twitter: 'https://twitter.com/datscyril',
+  facebook: 'https://www.facebook.com/cyrilghali/',
   // youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/cyrilghali',
   locale: 'en-US',

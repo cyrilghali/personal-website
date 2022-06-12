@@ -25,9 +25,7 @@ export default function Home({ posts }) {
               Hi, I’m Cyril GHALI
             </h1>
             <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
-              {`I'm a software engineer from Paris. 
-              I have six months of experience in software development.
-              In my free time, I love home labbing and blogging ! This is my digital garden, where I write about the things I'm working on and share what I've learned. Let's have a chat :)`}
+              {siteMetadata.description}
             </h2>
             <Link
               href="/about"
