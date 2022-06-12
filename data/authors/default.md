@@ -10,11 +10,19 @@ email: cyril.ghali@epita.fr
 
 ## Career
 
-- **I have one year of experience** in the web development industry. I worked for a startup studio and was the developer and product manager for several companies within the studio.
+- **I have six months of experience** in the web development industry. I worked for a startup studio and was the developer and product manager for several companies within the studio.
 
 - **I'm studying computer science.** I have three years of back-end development school projects, in C, C++, Java and Python. I have joined the startup speciality of my school. That allowed me to learn more about product management, UX design, Growth Hacking, VC's and more. I also met many startup CTOs and learned from their experiences.
 
 - **I'm now looking for an internship** as a software engineer or a site reliability engineer for February 2023.
+
+## Skills
+
+**Deployement**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
+
+**Backend** : `Java`,`C++`, `Python`, `SQL`,
+
+**Spoken Languages**: `English`, `French`, `Egyptian`,
 
 ## Interests
 
@@ -28,10 +36,13 @@ email: cyril.ghali@epita.fr
 
 - I do sports. I did seven years of Karate, one year of light Krav Maga and I started weight training this year.
 
-## Skills
+## Education
 
-**Deployement**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
+### EPITA
 
-**Backend** : `Java`,`C++`, `Python`, `SQL`,
+_2018-2023_
 
-**Spoken Languages**: `English`, `French`, `Egyptian`,
+**Masters of Computer Science**, Paris, France
+
+Relevant Coursework : Software, Product Management, Entrepreneurship
+& Bachelor of Science : Mathematics, Mechanics, Chemistry
