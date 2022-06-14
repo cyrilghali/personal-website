@@ -29,11 +29,11 @@ class MyDocument extends Document {
           src="https://chiffre.io/analytics.js"
           data-chiffre-project-id={`${process.env.data_chiffre_project_id}`}
           data-chiffre-public-key={`${process.env.data_chiffre_public_key}`}
-          referrerpolicy="origin"
+          referrerPolicy="origin"
           crossOrigin="anonymous"
         />
 
-        <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
+        <body className="bg-white text-black antialiased dark:bg-black dark:text-white">
           <Main />
           <NextScript />
         </body>
