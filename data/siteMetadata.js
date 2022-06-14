@@ -13,7 +13,7 @@ const siteMetadata = {
   email: 'cyril.ghali@epita.fr',
   github: 'https://github.com/datscyril',
   twitter: 'https://twitter.com/datscyril',
-  facebook: 'https://www.facebook.com/cyrilghali/',
+  //  facebook: 'https://www.facebook.com/cyrilghali/',
   // youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/cyrilghali',
   locale: 'en-US',
