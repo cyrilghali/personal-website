@@ -10,7 +10,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'cyril.ghali@epita.fr',
+  email: 'contact@cyrilghali.fr',
   github: 'https://github.com/datscyril',
   // twitter: '',
   //  facebook: 'https://www.facebook.com/cyrilghali/',
