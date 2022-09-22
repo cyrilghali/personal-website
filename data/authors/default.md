@@ -10,11 +10,13 @@ email: cyril.ghali@epita.fr
 
 ## Career
 
-- **I have six months of experience** in the web development industry. I worked for a startup studio and was the developer and product manager for several companies within the studio.
+- **I'm a freelancer**. I have a year of experience in the web development industry. I worked for a startup studio and was the software engineer and product manager for several companies within the studio.
 
 - **I'm studying computer science.** I have three years of back-end development school projects, in C, C++, Java and Python. I have joined the startup speciality of my school. That allowed me to learn more about product management, UX design, Growth Hacking, VC's and more. I also met many startup CTOs and learned from their experiences.
 
-- **I'm now looking for an internship** as a software engineer or a site reliability engineer for February 2023.
+- **I challenged myself to try to became an entrepreneur.** It's hard, so hard. You have to be well prepared.
+
+- **I'm looking for an internship** as a software engineer or a site reliability engineer for February 2023. If your company is facing challenges, I want to be part of it.
 
 ## Interests
 
@@ -41,7 +43,9 @@ Relevant Coursework : Software, Product Management, Entrepreneurship
 
 ## Skills
 
-**Deployment**: `Ansible`, `Kubernetes`, `Docker`, `Git`,`Bash`, `Linux`, `AWS`
+**Deployment**: `Ansible`, `Kubernetes`, `Terraform`,`Docker`, `Git`,`Bash`, `Linux`, `AWS`
+
+**Frontend** : `Node.js`,`Javascript`, `React`, `Next.js`, `HTML/CSS`
 
 **Backend** : `Java`,`C++`, `Python`, `SQL`,
 
