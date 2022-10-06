@@ -12,7 +12,7 @@ email: cyril.ghali@epita.fr
 
 - **I'm a freelancer**. I have a year of experience in the web development industry. I worked for a startup studio and was the software engineer and product manager for several companies within the studio.
 
-- **I studied science.** I have three years of back-end development school projects, in C, C++, Java and Python.
+- **I studied computer science.** I have three years of back-end development school projects, in C, C++, Java and Python.
 
 - **I challenged myself to became an entrepreneur.** I keep my eyes open on opportunies and try to make something people want.
 
