@@ -4,7 +4,7 @@ const siteMetadata = {
   description:
     "I'm a developer, open source lover and writer from France. This is my digital garden, where I write about the things I'm working on and share what I've learned.",
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://cyrilghali.fr',
   siteRepo: 'https://github.com/datscyril/ghali.dev',
   siteLogo: '/static/images/logo.png',
@@ -50,7 +50,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark',
       // Place the comment box above the comments. options: bottom, top
       inputPosition: 'bottom',
       // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc
