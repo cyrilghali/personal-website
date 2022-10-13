@@ -31,6 +31,9 @@ module.exports = {
         primary: colors.yellow,
         gray: colors.neutral,
       },
+      backgroundImage: {
+        space: "url('/static/images/background.gif')",
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

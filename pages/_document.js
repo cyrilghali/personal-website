@@ -33,7 +33,7 @@ class MyDocument extends Document {
           crossOrigin="anonymous"
         />
 
-        <body className="bg-[url('/static/images/background.gif')] bg-repeat text-black antialiased dark:bg-black dark:text-white">
+        <body className="bg-space bg-repeat text-black antialiased dark:bg-black dark:text-white">
           <Main />
           <NextScript />
         </body>
