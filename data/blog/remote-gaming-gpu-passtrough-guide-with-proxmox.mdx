@@ -1,19 +1,26 @@
 ---
-title: Remote Gaming - GPU Passtrough guide with Proxmox
-date: '2022-06-12'
+title: Google Stadia is dead. Here is how to built your own cloud gaming machine.
+date: '2022-10-08'
 tags: ['proxmox', 'gpu', 'passtrough']
-draft: false
-summary: I explain how I have passtrough my GPU to a Windows 11 VM.
+draft: true
+summary: I explain how to passtrough your GPU to a Windows 11 VM built with Proxmox.
 images: []
 layout: PostSimple
 canonicalUrl:
 ---
 
-## Notice
+They are multiple ways to achieve what we are building today. You can at first, just use your gaming machine as it is. Install Parsec or Moonlight, reverse proxying the traffic to that machine, and then you are ready to go. But I found it more funnier to have windows installed in a VM, since I use windows only for gaming, and nothing else.
 
-This tutorial is working for my config: a NVIDIA 3060TI, an AMD 5600x, Proxmox 7 and the the 5.13 kernel version.
+Today, we are building a W11 VM on Proxmox 7, where you can passtrough you GPU to W11, and play games on your own cloud !
 
-If you need a Windows 11 VM. [Check this guide](https://docs.technotim.live/posts/windows-11-proxmox/).
+# Windows VM.
+
+On your pool storge, you should download 2 things:
+
+- Windows 11 iso
+- Latest virtio-win drivers iso.
+
+Create your VM, ensure that you choose any option that is VirtIO related, enable TPM, give enough memory and cores to your machine, and before starting the machine, ensure to add the virtio win iso to the VM.
 
 Ensure that you have RDP or any other remote control software installed, because you won't be able to use VNC after using your GPU as your primary card.
 
