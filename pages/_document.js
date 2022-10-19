@@ -22,16 +22,13 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#2b5797" />
           <meta name="theme-color" content="#121212" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          <script
+            async
+            defer
+            data-website-id={`${process.env.data_website_id}`}
+            src="https://umami.cyrilghali.fr/umami.js"
+          />
         </Head>
-        <script
-          async
-          id="chiffre:analytics"
-          src="https://chiffre.io/analytics.js"
-          data-chiffre-project-id={`${process.env.data_chiffre_project_id}`}
-          data-chiffre-public-key={`${process.env.data_chiffre_public_key}`}
-          referrerPolicy="origin"
-          crossOrigin="anonymous"
-        />
 
         <body className="bg-space bg-repeat text-black antialiased dark:bg-black dark:text-white">
           <Main />
