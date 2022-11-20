@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Cyril Ghali',
   author: 'Cyril Ghali',
   description:
-    "I'm a developer, open source lover and writer from France. This is my digital garden, where I write about the things I'm working on and share what I've learned.",
+    "I'm Cyril, a software engineer based in Paris. I'm on a mission to help companies build reliable and scalable infrastructures",
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cyrilghali.fr',
