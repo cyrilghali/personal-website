@@ -16,4 +16,4 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 
 ## Credits
 
-This website was made in Nextjs and Tailwind, inspired by [Timothy Lin](https://www.timrlx.com)
+This website was made in Nextjs and Tailwind, inspired by Timothy Lin
