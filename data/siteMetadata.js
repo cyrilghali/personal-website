@@ -6,11 +6,11 @@ const siteMetadata = {
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cyrilghali.fr',
-  siteRepo: 'https://github.com/cyrilghali/ghali.dev',
+  siteRepo: 'https://github.com/cyrilghali/cyrilghali.fr',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'contact@cyrilghali.fr',
+  email: 'cyril.ghali@hotmail.com',
   github: 'https://github.com/cyrilghali',
   // twitter: '',
   //  facebook: 'https://www.facebook.com/cyrilghali/',
