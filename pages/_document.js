@@ -22,12 +22,6 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#2b5797" />
           <meta name="theme-color" content="#121212" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-          <script
-            async
-            defer
-            data-website-id={`${process.env.data_website_id}`}
-            src="https://umami.cyrilghali.fr/umami.js"
-          />
         </Head>
 
         <body className="bg-space bg-repeat text-black antialiased dark:bg-black dark:text-white">

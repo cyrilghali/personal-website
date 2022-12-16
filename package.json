@@ -45,7 +45,7 @@
     "unist-util-visit": "^4.0.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "12.0.9",
+    "@next/bundle-analyzer": "^13.0.7",
     "@svgr/webpack": "^6.1.2",
     "cross-env": "^7.0.3",
     "dedent": "^0.7.0",
@@ -63,6 +63,9 @@
     "prettier-plugin-tailwindcss": "^0.1.4",
     "socket.io": "^4.4.0",
     "socket.io-client": "^4.4.0"
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.5"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
