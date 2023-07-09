@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cyrilghali.fr/about</loc>
-  </url>
-
-  <url>
     <loc>https://cyrilghali.fr/blog</loc>
   </url>
 
@@ -13,46 +9,10 @@
   </url>
 
   <url>
-    <loc>https://cyrilghali.fr/projects</loc>
-  </url>
-
-  <url>
     <loc>https://cyrilghali.fr/tags</loc>
   </url>
 
   <url>
     <loc>https://cyrilghali.fr/blog/remote-gaming-gpu-passtrough-guide-with-proxmox</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/blog/setup-the-cleanest-ubuntu-desktop</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/clean-install</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/gpu</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/passtrough</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/proxmox</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/ubuntu</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/ubuntu-2204</loc>
-  </url>
-
-  <url>
-    <loc>https://cyrilghali.fr/tags/ubuntu-desktop</loc>
   </url>
 </urlset>

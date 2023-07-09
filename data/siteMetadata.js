@@ -1,18 +1,18 @@
 const siteMetadata = {
-  title: 'Cyril Ghali',
+  title: "Cyril Ghali's website",
   author: 'Cyril Ghali',
   description:
-    "I'm Cyril, a software engineer based in Paris. I'm on a mission to help companies build reliable and scalable infrastructures",
+    "I'm Cyril, a software engineer based in Paris. \n I'm on a mission to help companies build reliable and scalable infrastructures",
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cyrilghali.fr',
   siteRepo: 'https://github.com/cyrilghali/cyrilghali.fr',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/prog-pdp.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'cyril.ghali@hotmail.com',
+  email: 'contact@cyrilghali.fr',
   github: 'https://github.com/cyrilghali',
-  // twitter: '',
+  twitter: 'https://techhub.social/@cyrilghali',
   //  facebook: 'https://www.facebook.com/cyrilghali/',
   // youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/cyrilghali',
@@ -23,12 +23,12 @@ const siteMetadata = {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-4WNSCBB3WJ', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: '',
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the

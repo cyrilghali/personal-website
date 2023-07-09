@@ -22,22 +22,34 @@ export default function Home({ posts }) {
         <div className="my-6 flex flex-col items-center gap-x-12 xl:mb-12 xl:flex-row">
           <div className="pt-6">
             <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Site Reliability and DevOps Engineer
+              {siteMetadata.author}
             </h1>
-            <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
-              {siteMetadata.description}
+            <h2 className="pb-6 prose text-lg text-gray-200 dark:text-gray-200  tracking-widest">
+              SOFTWARE ENGINEER
             </h2>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-400">
+              I'm on a mission to help companies build reliable and scalable systems and
+              infrastructures.
+              <br />
+              I'm now working at <a href="https://kpmg.com/lu/en/home.html">KPMG Luxembourg</a> as a
+              Platform Engineer. <br />
+              I've also worked for a startup studio called{' '}
+              <a href="https://goodwave.io">Goodwave</a>; where I crafted, as the only engineer,
+              products like <a href="https://laserpitch.com">Laserpitch</a>,{' '}
+              <a href="https://sonar.so">Sonar</a> and{' '}
+              <a href="https://technoandchill.com">Techno &amp; Chill</a>. Feel free to contact me
+              at `contact @ this domain`
+            </h3>
             <Link
-              href="/about"
-              className="focus:shadow-outline mt-6 inline-flex items-center rounded-sm bg-primary-600 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-primary-700 hover:text-indigo-100 focus:outline-none focus:ring-2  focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black dark:hover:bg-primary-400"
-              // className={`bg-primary-500 py-2 px-4 font-medium text-white ${'hover:bg-primary-700 dark:hover:bg-primary-400'} focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
+              href="/resume"
+              className="focus:shadow-outline mt-6 inline-flex items-center rounded-sm bg-primary-700 px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out hover:bg-primary-700 hover:text-indigo-100 focus:outline-none focus:ring-2  focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black dark:hover:bg-primary-600"
             >
-              Read more about me
+              Resume
             </Link>
           </div>
-          <div className="mx-2 my-12 flex w-96 items-center justify-center">
+          <div className="mx-2 my-12 flex w-96 items-center justify-center hidden md:block">
             <Image
-              src="/static/images/avatar.jpg"
+              src="/static/images/prog-pdp.jpg"
               width="398px"
               height="381px"
               alt="avatar"
@@ -45,7 +57,7 @@ export default function Home({ posts }) {
             />
           </div>
         </div>
-        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
+        <h2 className="flex py-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
           Latest
         </h2>
         <hr className="border-gray-200 dark:border-gray-700" />
