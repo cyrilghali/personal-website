@@ -15,4 +15,16 @@
   <url>
     <loc>https://cyrilghali.fr/blog/remote-gaming-gpu-passtrough-guide-with-proxmox</loc>
   </url>
+
+  <url>
+    <loc>https://cyrilghali.fr/tags/gpu</loc>
+  </url>
+
+  <url>
+    <loc>https://cyrilghali.fr/tags/proxmox</loc>
+  </url>
+
+  <url>
+    <loc>https://cyrilghali.fr/tags/passtrough</loc>
+  </url>
 </urlset>
